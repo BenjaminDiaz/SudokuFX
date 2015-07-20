@@ -4,6 +4,12 @@ SudokuFX is a sudoku game built using JavaFX library, which can be exported to a
 
 ![Sudoku Screenshot](screenshot.png)
 
+## Instructions
+
+```
+$ gradle android
+```
+
 ## References
 
 Javafxports gradle plugin: [http://javafxports.org/](http://javafxports.org/)
