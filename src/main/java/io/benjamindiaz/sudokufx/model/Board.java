@@ -16,10 +16,6 @@ public class Board implements Serializable {
 	private static final long serialVersionUID = -2329080360064804899L;
 
 	public int[][] board;
-	/*
-	 * Maps positions as String (this must be changed in the future) to its
-	 * possible values
-	 */
 	private HashMap<Position, ArrayList<Integer>> possibilities;
 	private ArrayList<Position> positions;
 	public static final int SIZE = 9;
